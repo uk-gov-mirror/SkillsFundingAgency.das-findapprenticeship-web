@@ -109,11 +109,19 @@
 
 .faa-map__panel--role {
   width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  overflow: auto;
 }
 
 @media (min-width: 40.0625em) {
   .faa-map__panel--role {
     width: 400px;
+    top: auto;
+    left: auto;
+    position: absolute;
   }
 }
 
